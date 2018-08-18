@@ -1,8 +1,13 @@
-#header{
+/*Header Section */
+.container{
+  display: flex;
+}
+
+.header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-flex;
+
 }
 
 .name{
