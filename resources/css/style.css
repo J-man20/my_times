@@ -4,16 +4,22 @@
   font-size: 14px;
   font-weight: bold;
   display: inline-flex;
+  width: 100%;
+  border-bottom: 1px solid black;
 }
 
 
 
 .logo{
+  display: inline-flex;
   color: MediumAquamarine;
 }
 
-nav{
+.container li{
+  color: black;
+  display: inline-flex;
+  text-align: right;
   justify-content: flex-end;
   margin: 0 auto;
-  text-align: right;
+  text-decoration: underline;
 }
