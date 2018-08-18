@@ -27,7 +27,7 @@
 }
 
 .header li{
-  display: inline-block;
+  display: inline-flex;
 
 
 }
@@ -36,8 +36,6 @@
   color: black;
   margin-right: 10px;
   text-decoration: underline;
-  justify-content: center;
   position: relative;
   top: 5px;
   left: 700px;
-}
