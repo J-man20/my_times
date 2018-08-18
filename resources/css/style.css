@@ -20,6 +20,6 @@
   display: inline-flex;
   text-align: right;
   justify-content: flex-end;
-  margin: 0 auto;
   text-decoration: underline;
+  margin-right: 10px;
 }
