@@ -7,7 +7,7 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-block;
+  display: inline-flex;
 
 }
 
@@ -17,5 +17,5 @@
 
 nav{
   display: inline-block;
-  text-align: right;
+  justify-content: flex-end;
 }
