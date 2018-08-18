@@ -15,11 +15,14 @@
   color: MediumAquamarine;
 }
 
+.container li{
+  display: inline-block;
+
+}
+
 .container li a{
   color: black;
-  display: inline-flex;
-  text-align: right;
-  justify-content: flex-end;
-  text-decoration: underline;
   margin-right: 10px;
+  text-decoration: underline;
+  justify-content: flex-end;
 }
