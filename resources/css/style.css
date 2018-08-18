@@ -18,7 +18,10 @@
 }
 
 .logo p{
+  position: relative;
+  top:5px;
   margin-left: 15px;
+
 }
 
 .container li{
@@ -33,5 +36,6 @@
   text-decoration: underline;
   justify-content: center;
   position: relative;
+  top: 5px;
   left: 700px;
 }
