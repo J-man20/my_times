@@ -1,15 +1,16 @@
 /*Header Section */
 .container{
+  display: inline-flex;
+
+}
+
+.header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-flex;
-  width: 100%;
   border-bottom: 1px solid black;
   margin: 0 auto;
 }
-
-
 
 .logo{
   color: MediumAquamarine;
