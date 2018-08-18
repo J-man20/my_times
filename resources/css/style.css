@@ -1,15 +1,16 @@
 /*Header Section */
-.container{
-  display: inline-flex;
-
-}
-
 .header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
   margin: 0 auto;
+  width: 100%;
+}
+
+.container{
+  display: inline-flex;
+
 }
 
 .logo{
@@ -25,13 +26,13 @@
 
 }
 
-.container li{
+.header li{
   display: inline-block;
 
 
 }
 
-.container li a{
+.header li a{
   color: black;
   margin-right: 10px;
   text-decoration: underline;
