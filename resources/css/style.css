@@ -6,6 +6,7 @@
   display: inline-flex;
   width: 100%;
   border-bottom: 1px solid black;
+  margin: 0 auto;
 }
 
 
@@ -28,5 +29,6 @@
   color: black;
   margin-right: 10px;
   text-decoration: underline;
-  justify-content: flex-end;
+  position: relative;
+  left: 700px;
 }
