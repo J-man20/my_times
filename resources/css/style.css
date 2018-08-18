@@ -1,15 +1,21 @@
 /*Header Section */
 .container{
-  display: flex;
+  display: inline-flex;
 }
 
 .header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display: inline-block;
 
 }
 
 .name{
   color: MediumAquamarine;
+}
+
+nav{
+  display: inline-block;
+  text-align: right;
 }
