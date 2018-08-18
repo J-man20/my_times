@@ -11,8 +11,12 @@
 
 
 .logo{
-  display: inline-flex;
   color: MediumAquamarine;
+  display: inline-flex;
+}
+
+.logo p{
+  margin-left: 15px;
 }
 
 .container li{
