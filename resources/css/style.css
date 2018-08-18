@@ -15,7 +15,7 @@
   color: MediumAquamarine;
 }
 
-.container li{
+.container li a{
   color: black;
   display: inline-flex;
   text-align: right;
