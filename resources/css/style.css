@@ -81,3 +81,23 @@ border: 1px solid black;
 .cameras{
   border: 1px solid black;
 }
+
+/*Medium Section */
+#medium{
+width: 300px;
+border: 2px solid black;
+}
+
+.cats{
+  border: 1px solid black;
+}
+
+/*Small Section */
+#small{
+width: 240px;
+border: 1px solid black;
+}
+
+.bite{
+  border: 1px solid black;
+}
