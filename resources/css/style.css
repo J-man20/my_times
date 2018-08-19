@@ -47,12 +47,11 @@
 width: 630px;
 align-content: flex-start;
 border: 1px solid black;
+margin: 80px 0px 0px 0px;
 }
 
 .az{
-  position: relative;
   width: 630px;
-  align-content: flex-end;
   border: 1px solid black;
 }
 
@@ -61,9 +60,8 @@ border: 1px solid black;
 }
 
 .so{
- position: relative;
  width: 630px;
- 
+
  border: 2px solid black;
 }
 
@@ -72,9 +70,7 @@ border: 1px solid black;
 }
 
 .my{
-position: relative;
 width: 630px;
-align-content: flex-end;
 border: 1px solid black;
 }
 
