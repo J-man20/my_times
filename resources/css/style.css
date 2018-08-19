@@ -26,16 +26,19 @@
 
 }
 
-.header li{
+.navigation ul{
   display: inline-flex;
+  list-style-type: none;
+  position: relative;
+  top: 5px;
+  left: 700px;
 
 
 }
 
-.header li a{
+.navigation li a{
   color: black;
-  margin-right: 10px;
   text-decoration: underline;
-  position: relative;
-  top: 5px;
-  left: 700px;
+  margin-right: 10px;
+
+}
