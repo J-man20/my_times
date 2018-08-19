@@ -2,6 +2,7 @@
 
 #header{
   background-color: white;
+  width: 100%;
   font-family: Verdana;
    font-size: 14px;
    font-weight: bold;
@@ -42,7 +43,6 @@
 /*Large Articles */
 #main{
   display: flex;
-  overflow: scroll;
 }
 #large{
 width: 630px;
