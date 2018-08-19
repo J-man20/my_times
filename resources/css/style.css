@@ -46,6 +46,23 @@
 
 /*Article Section */
 #main{
-  display: flex;
+  display: inline-flex;
   position: relative;
+  overflow: scroll;
+}
+
+/*Left side articles */
+#Az{
+display: inline-flex;
+position: relative;
+top: 100px;
+width: 630px;
+border: 1px solid black;
+
+}
+
+#funny{
+  position: relative;
+  width: 630px;
+  border: 2px solid black;
 }
