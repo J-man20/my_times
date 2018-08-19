@@ -45,8 +45,8 @@
   display: flex;
 }
 #large{
+display: flex;
 width: 630px;
-align-content: flex-start;
 border: 1px solid black;
 margin: 80px 0px 0px 0px;
 }
