@@ -37,13 +37,16 @@
 }
 
 /*Main Section */
+
 /*Large Articles */
 #main{
   display: inline-flex;
+  overflow: scroll;
 }
 #large{
 width: 630px;
 align-content: flex-end;
+border: 1px solid black;
 }
 
 .az{
@@ -58,7 +61,7 @@ align-content: flex-end;
 }
 
 .so{
-  position: relative;
+ position: relative;
  width: 630px;
  align-content: flex-end;
  border: 2px solid black;
