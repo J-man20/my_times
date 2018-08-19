@@ -1,68 +1,36 @@
 /*Header Section */
-.header{
+
+#header{
   font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  border-bottom: 1px solid black;
-  margin: 0 auto;
-  width: 100%;
-  position: fixed;
-}
-
-.container{
-  display: inline-flex;
+   font-size: 14px;
+   font-weight: bold;
+   display: inline-flex;
 
 }
-
 .logo{
-  color: MediumAquamarine;
   display: inline-flex;
-  margin: 0px 0px 5px 20px;
 }
 
 .logo p{
+  color: MediumAquamarine;
+  margin-left: 10px;
   position: relative;
-  top:5px;
-  margin-left: 15px;
+  top: 5px;
+}
 
+.navigation{
+  display: inline-flex;
 }
 
 .navigation ul{
   display: inline-flex;
-  list-style-type: none;
-  position: relative;
-  top: 5px;
-  left: 700px;
-
-
+  list-style: none;
 }
 
-.navigation li a{
+.navigation a{
   color: black;
-  text-decoration: underline;
   margin-right: 10px;
-
-}
-
-/*Article Section */
-#main{
-  display: inline-flex;
   position: relative;
-  overflow: scroll;
-}
-
-/*Left side articles */
-#Az{
-display: inline-flex;
-position: relative;
-top: 100px;
-width: 630px;
-border: 1px solid black;
-
-}
-
-#funny{
-  position: relative;
-  width: 630px;
-  border: 2px solid black;
+  top: 20px;
+  left: 700px;
 }
