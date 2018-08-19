@@ -46,6 +46,7 @@
 }
 #large{
 display: flex;
+flex-direction: column;
 width: 630px;
 border: 1px solid black;
 margin: 90px 0px 0px 0px;
@@ -55,7 +56,6 @@ margin: 90px 0px 0px 0px;
 .az{
   width: 630px;
   border: 1px solid black;
-  align-content: space-around;
 }
 
 .funny{
@@ -65,7 +65,6 @@ margin: 90px 0px 0px 0px;
 .so{
  width: 630px;
 border: 2px solid black;
-align-content: space-around;
 
 }
 
@@ -76,7 +75,6 @@ align-content: space-around;
 .my{
 width: 630px;
 border: 1px solid black;
-align-content: space-around;
 }
 
 .cameras{
@@ -86,6 +84,8 @@ align-content: space-around;
 /*Medium Section */
 #medium{
 display: flex;
+justify-content: center;
+flex-direction: column;
 width: 300px;
 border: 2px solid black;
 margin: 90px 0px 0px 0px;
@@ -93,11 +93,13 @@ margin: 90px 0px 0px 0px;
 
 .cats{
   border: 1px solid black;
+
 }
 
 /*Small Section */
 #small{
 display: flex;
+flex-direction: column;
 width: 240px;
 border: 1px solid black;
 margin: 90px 0px 0px 0px;
