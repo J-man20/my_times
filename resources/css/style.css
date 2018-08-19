@@ -43,3 +43,9 @@
   margin-right: 10px;
 
 }
+
+/*Article Section */
+#main{
+  display: flex;
+  position: relative;
+}
