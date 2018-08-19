@@ -48,7 +48,7 @@
 display: flex;
 width: 630px;
 border: 1px solid black;
-margin: 80px 0px 0px 0px;
+margin: 90px 0px 0px 0px;
 }
 
 .az{
@@ -62,8 +62,7 @@ margin: 80px 0px 0px 0px;
 
 .so{
  width: 630px;
-
- border: 2px solid black;
+border: 2px solid black;
 }
 
 .earth{
@@ -84,6 +83,7 @@ border: 1px solid black;
 display: flex;
 width: 300px;
 border: 2px solid black;
+margin: 90px 0px 0px 0px;
 }
 
 .cats{
@@ -95,6 +95,7 @@ border: 2px solid black;
 display: flex;
 width: 240px;
 border: 1px solid black;
+margin: 90px 0px 0px 0px;
 }
 
 .bite{
