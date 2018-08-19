@@ -41,14 +41,40 @@
 #main{
   display: inline-flex;
 }
-.large{
+#large{
 width: 630px;
+align-content: flex-end;
+}
+
+.az{
+  position: relative;
+  width: 630px;
+  align-content: flex-end;
+  border: 1px solid black;
+}
+
+.funny{
+  border: 1px solid black;
 }
 
 .so{
+  position: relative;
  width: 630px;
+ align-content: flex-end;
+ border: 2px solid black;
+}
+
+.earth{
+  border: 1px solid black;
 }
 
 .my{
+  position: relative;
 width: 630px;
+align-content: flex-end;
+border: 1px solid black;
+}
+
+.cameras{
+  border: 1px solid black;
 }
