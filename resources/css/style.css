@@ -8,7 +8,7 @@
   font-weight: bold;
   display: flex;
   position: fixed;
-  border: 1px solid black;
+  border-bottom:  1px solid black;
 
  }
  .logo{
@@ -35,7 +35,7 @@
    color: black;
    margin-right: 10px;
    position: relative;
-   top: 20px;
+   top: 5px;
    left: 700px;
  }
 
