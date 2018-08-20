@@ -63,6 +63,8 @@
 
 .funny{
  background-image: url("../images/img_story_main.png");
+ height: 300px;
+ margin: 0px;
  border: 1px solid black;
  font-family: Georgia;
   font-weight: bold;
@@ -78,7 +80,13 @@
 
 .earth{
   background-image: url("../images/img_story_2.png");
+  height: 300px;
  border: 1px solid black;
+ font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .my{
