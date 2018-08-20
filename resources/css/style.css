@@ -62,7 +62,12 @@
 }
 
 .funny{
+ background-image: url("../images/img_story_main.png");
  border: 1px solid black;
+ font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .so{
@@ -72,6 +77,7 @@
 }
 
 .earth{
+  background-image: url("../images/img_story_2.png");
  border: 1px solid black;
 }
 
