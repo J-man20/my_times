@@ -95,7 +95,14 @@
 }
 
 .cameras{
+  background-image: url("../images/img_story_3.png");
+  height: 300px;
  border: 1px solid black;
+ font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 /*Medium Section */
