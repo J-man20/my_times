@@ -1,145 +1,135 @@
 /*Header Section */
 
-#header{
- background-color: white;
- width: 100%;
- font-family: Verdana;
- font-size: 14px;
- font-weight: bold;
- display: flex;
- position: fixed;
- border-bottom: 1px solid black;
-
-}
-.logo{
+ #header{
+  background-color: white;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
   display: flex;
-}
+  position: fixed;
+  border: 1px solid black;
 
-.logo p{
-  color: MediumAquamarine;
-  margin-left: 10px;
-  position: relative;
-  top: 5px;
-}
+ }
+ .logo{
+   display: flex;
+ }
 
-.navigation{
+ .logo p{
+   color: MediumAquamarine;
+   margin-left: 10px;
+   position: relative;
+   top: 5px;
+ }
+
+ .navigation{
+   display: flex;
+ }
+
+ .navigation ul{
+   display: flex;
+   list-style: none;
+ }
+
+ .navigation a{
+   color: black;
+   margin-right: 10px;
+   position: relative;
+   top: 20px;
+   left: 700px;
+ }
+
+ /*Main Section */
+
+ /*Large Articles */
+ #main{
+   display: flex;
+   font-family: Georgia;
+   font-size: 17px;
+   color: black;
+ }
+ #large{
   display: flex;
-}
+  flex-direction: column;
+  width: 630px;
+  margin: 90px 0px 0px 0px;
 
-.navigation ul{
-  display: flex;
-  list-style: none;
-}
+ }
 
-.navigation a{
-  color: black;
-  margin-right: 10px;
-  position: relative;
-  top: 20px;
-  left: 700px;
-}
+ .az{
+  width: 630px;
+ }
 
-/*Main Section */
-
-/*Large Articles */
-#main{
-  display: flex;
+ .funny{
+  background-image: url("../images/img_story_main.png");
+  height: 300px;
+  margin: 0px;
   font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
+   font-weight: bold;
+   font-size: 40px;
+   color: white;
+ }
 
-#large .so{
+ .so{
+  width: 630px;
+
+ }
+
+ .earth{
+   background-image: url("../images/img_story_2.png");
+   height: 300px;
+   margin: 0px;
+  font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+ }
+
+ .my{
+  width: 630px;
+ }
+
+ .cameras{
+   background-image: url("../images/img_story_3.png");
+   height: 300px;
+   margin: 0px;
+  border: 1px solid black;
+  font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+ }
+
+ /*Medium Section */
+ #medium{
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  justify-content:space-between;
-  width: 300px;
-}
-
-#large .my{
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-.az{
- width: 630px;
-}
-
-.funny{
-  display: flex;
- background-image: url("../images/img_story_main.png");
- height: 300px;
- margin: 90px 0px 0px 0px;
- font-family: Georgia;
-  font-weight: bold;
-  font-size: 40px;
-  color: white;
-}
-
-
-
-.so{
- width: 630px;
-
-}
-
-.earth{
-  background-image: url("../images/img_story_2.png");
-  height: 300px;
-  margin: 0px;
- font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
-
-.my{
- width: 630px;
-}
-
-.cameras{
-  background-image: url("../images/img_story_3.png");
-  height: 300px;
-  margin: 0px;
- font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
-
-
-/*Medium Section */
-#medium{
- display: flex;
- justify-content: center;
- flex-direction: column;
  width: 300px;
  margin: 90px 15px 0px 15px;
+ padding-bottom: 320px;
 }
-
-
-
-.cats{
+ .cats{
   background-image: url("../images/img_story_1.png");
+  bottom: 160px;
   height: 300px;
+ border: 1px solid black;
  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+ }
 
-/*Small Section */
-#small{
- display: flex;
- flex-direction: column;
- width: 240px;
- margin: 90px 0px 0px 0px;
-}
+ /*Small Section */
+ #small{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin: 90px 0px 0px 0px;
+ }
 
-.bite{
-
-}
+ .bite{
+ }
