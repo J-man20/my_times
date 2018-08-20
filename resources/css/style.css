@@ -56,6 +56,18 @@
 
  }
 
+#large .so{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#large .my{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
  .az{
   width: 630px;
  }
