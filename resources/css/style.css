@@ -1,17 +1,17 @@
 /*Header Section */
 
 #header{
-  background-color: white;
-  width: 100%;
-  font-family: Verdana;
-   font-size: 14px;
-   font-weight: bold;
-   display: inline-flex;
-   position: fixed;
+ background-color: white;
+ width: 100%;
+ font-family: Verdana;
+ font-size: 14px;
+ font-weight: bold;
+ display: flex;
+ position: fixed;
 
 }
 .logo{
-  display: inline-flex;
+  display: flex;
 }
 
 .logo p{
@@ -22,11 +22,11 @@
 }
 
 .navigation{
-  display: inline-flex;
+  display: flex;
 }
 
 .navigation ul{
-  display: inline-flex;
+  display: flex;
   list-style: none;
 }
 
@@ -43,68 +43,71 @@
 /*Large Articles */
 #main{
   display: flex;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 #large{
-display: flex;
-flex-direction: column;
-width: 630px;
-border: 1px solid black;
-margin: 90px 0px 0px 0px;
+ display: flex;
+ flex-direction: column;
+ width: 630px;
+ border: 1px solid black;
+ margin: 90px 0px 0px 0px;
 
 }
 
 .az{
-width: 630px;
-border: 1px solid black;
+ width: 630px;
+ border: 1px solid black;
 }
 
 .funny{
-border: 1px solid black;
+ border: 1px solid black;
 }
 
 .so{
-width: 630px;
-border: 2px solid black;
+ width: 630px;
+ border: 2px solid black;
 
 }
 
 .earth{
-border: 1px solid black;
+ border: 1px solid black;
 }
 
 .my{
-width: 630px;
-border: 1px solid black;
+ width: 630px;
+ border: 1px solid black;
 }
 
 .cameras{
-border: 1px solid black;
+ border: 1px solid black;
 }
 
 /*Medium Section */
 #medium{
-display: flex;
-justify-content: center;
-flex-direction: column;
-width: 300px;
-border: 2px solid black;
-margin: 90px 0px 0px 0px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ width: 300px;
+ border: 2px solid black;
+ margin: 90px 15px 0px 15px;
 }
 
 .cats{
-border: 1px solid black;
+ border: 1px solid black;
 
 }
 
 /*Small Section */
 #small{
-display: flex;
-flex-direction: column;
-width: 240px;
-border: 1px solid black;
-margin: 90px 0px 0px 0px;
+ display: flex;
+ flex-direction: column;
+ width: 240px;
+ border: 1px solid black;
+ margin: 90px 0px 0px 0px;
 }
 
 .bite{
-border: 1px solid black;
+ border: 1px solid black;
 }
