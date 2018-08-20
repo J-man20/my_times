@@ -48,19 +48,26 @@
   font-size: 17px;
   color: black;
 }
+
 #large{
- display: flex;
- flex-direction: column;
+  display: flex;
+ flex-direction: row;
  width: 630px;
 
 }
 
+#large .so, .my{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
 
 .az{
  width: 630px;
 }
 
-#large .funny{
+ #large .funny{
  background-image: url("../images/img_story_main.png");
  height: 300px;
  margin: 90px 0px 0px 0px;
@@ -103,10 +110,6 @@
   text-align: center;
 }
 
-#large .my, .so{
-  display: flex;
-  flex-direction: row;
-}
 
 /*Medium Section */
 #medium{
