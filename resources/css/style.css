@@ -115,10 +115,14 @@
  width: 300px;
  border: 2px solid black;
  margin: 90px 15px 0px 15px;
+ padding-bottom: 320px;
 }
+
+
 
 .cats{
   background-image: url("../images/img_story_1.png");
+  bottom: 160px;
   height: 300px;
  border: 1px solid black;
  font-family: Georgia;
