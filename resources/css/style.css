@@ -52,27 +52,28 @@
  display: flex;
  flex-direction: column;
  width: 630px;
- margin: 90px 0px 0px 0px;
 
 }
+
 
 .az{
  width: 630px;
 }
 
-.funny{
+#large .funny{
  background-image: url("../images/img_story_main.png");
  height: 300px;
- margin: 0px;
+ margin: 90px 0px 0px 0px;
  font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
 }
 
+
+
 .so{
  width: 630px;
-
 
 }
 
@@ -89,7 +90,6 @@
 
 .my{
  width: 630px;
-
 }
 
 .cameras{
@@ -101,6 +101,11 @@
   font-size: 30px;
   color: white;
   text-align: center;
+}
+
+#large .my, .so{
+  display: flex;
+  flex-direction: row;
 }
 
 /*Medium Section */
