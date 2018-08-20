@@ -118,14 +118,12 @@
  flex-direction: column;
  width: 300px;
  margin: 90px 15px 0px 15px;
- padding-bottom: 350px;
 }
 
 
 
 .cats{
   background-image: url("../images/img_story_1.png");
-  bottom: 160px;
   height: 300px;
  font-family: Georgia;
   font-weight: bold;
