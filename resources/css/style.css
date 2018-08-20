@@ -50,24 +50,29 @@
 }
 
 #large{
-  display: flex;
- flex-direction: row;
+display: block;
  width: 630px;
 
 }
 
-#large .so, .my{
+#large .so{
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+ flex-direction: column;
+ width: 300px;
+}
+
+#large .my{
+  display: flex;
+ flex-direction: column;
+  width: 300px;
 }
 
 .az{
  width: 630px;
 }
 
- #large .funny{
+#large .funny{
+  display: block;
  background-image: url("../images/img_story_main.png");
  height: 300px;
  margin: 90px 0px 0px 0px;
