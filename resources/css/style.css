@@ -81,6 +81,7 @@
 .earth{
   background-image: url("../images/img_story_2.png");
   height: 300px;
+  margin: 0px;
  border: 1px solid black;
  font-family: Georgia;
   font-weight: bold;
@@ -97,6 +98,7 @@
 .cameras{
   background-image: url("../images/img_story_3.png");
   height: 300px;
+  margin: 0px;
  border: 1px solid black;
  font-family: Georgia;
   font-weight: bold;
@@ -116,8 +118,14 @@
 }
 
 .cats{
+  background-image: url("../images/img_story_1.png");
+  height: 300px;
  border: 1px solid black;
-
+ font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 /*Small Section */
