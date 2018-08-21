@@ -74,7 +74,7 @@
   width: 300px;
 }
 
- .vacation h2{
+ .vacation .puget{
    background-image: url("../images/img_story_2.png");
    height: 300px;
    margin: 0px;
@@ -96,7 +96,7 @@
   width: 300px;
 }
 
- .early h2{
+ .early .burger{
    background-image: url("../images/img_story_3.png");
    height: 300px;
    margin: 0px;
