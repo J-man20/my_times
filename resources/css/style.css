@@ -85,6 +85,12 @@
    text-align: center;
  }
 
+ .vacation-text{
+   font-family: Georgia;
+  font-size: 17px;
+  color: black;
+ }
+
 .early{
   display: flex;
   width: 300px;
@@ -99,6 +105,12 @@
    font-size: 30px;
    color: white;
    text-align: center;
+ }
+
+ .early-text{
+   font-family: Georgia;
+   font-size: 17px;
+   color: black;
  }
 
  /*Medium Section */
