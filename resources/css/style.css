@@ -7,36 +7,38 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  align-items: center;
   position: fixed;
   border-bottom:  1px solid black;
 
  }
  .logo{
-   display: flex;
+   display: inline-flex;
+   align-items: center;
  }
 
  .logo p{
    color: MediumAquamarine;
    margin-left: 10px;
-   position: relative;
-   top: 5px;
+
  }
 
  .navigation{
-   display: flex;
+   display:inline-flex;
+   justify-content: flex-end;
  }
 
- .navigation ul{
-   display: flex;
-   list-style: none;
+ .navigation span{
+   display:inline-flex;
+   justify-content: flex-end;
  }
 
- .navigation a{
+   .navigation a{
+    display:inline-flex;
+    justify-content: flex-end;
    color: black;
    margin-right: 10px;
-   position: relative;
-   top: 5px;
-   left: 700px;
+
  }
 
  /*Main Section */
