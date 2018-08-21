@@ -44,35 +44,22 @@
  /*Large Articles */
  #main{
    display: flex;
+   justify-content: space-between;
    font-family: Georgia;
    font-size: 17px;
    color: black;
+   margin-top: 17px;
  }
  #large{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 630px;
   margin: 90px 0px 0px 0px;
 
  }
 
-#large .so{
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-#large .my{
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
- .az{
-  width: 630px;
- }
-
- .funny{
+ .tuna-text .funny{
   background-image: url("../images/img_story_main.png");
   height: 300px;
   margin: 0px;
@@ -82,12 +69,12 @@
    color: white;
  }
 
- .so{
-  width: 630px;
+.vacation{
+  display: flex;
+  width: 300px;
+}
 
- }
-
- .earth{
+ .vacation h2{
    background-image: url("../images/img_story_2.png");
    height: 300px;
    margin: 0px;
@@ -98,15 +85,15 @@
    text-align: center;
  }
 
- .my{
-  width: 630px;
- }
+.early{
+  display: flex;
+  width: 300px;
+}
 
- .cameras{
+ .early h2{
    background-image: url("../images/img_story_3.png");
    height: 300px;
    margin: 0px;
-  border: 1px solid black;
   font-family: Georgia;
    font-weight: bold;
    font-size: 30px;
@@ -123,7 +110,7 @@
  margin: 90px 15px 0px 15px;
  padding-bottom: 320px;
 }
- .cats{
+ .cats .control{
   background-image: url("../images/img_story_1.png");
   bottom: 160px;
   height: 300px;
