@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 1;
   border-bottom:  1px solid black;
 
  }
@@ -17,7 +18,7 @@
    align-items: center;
  }
 
- .logo p{
+ .logo span{
    color: MediumAquamarine;
    margin-left: 10px;
 
