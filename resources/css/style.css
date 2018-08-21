@@ -113,6 +113,11 @@
    color: black;
  }
 
+ .sidebyside{
+   display: flex;
+   justify-content: space-between;
+ }
+
  /*Medium Section */
  #medium{
   display: flex;
