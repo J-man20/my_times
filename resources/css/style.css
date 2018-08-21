@@ -76,18 +76,19 @@
  .vacation .puget{
    background-image: url("../images/img_story_2.png");
    height: 300px;
-   margin: 0px;
   font-family: Georgia;
    font-weight: bold;
    font-size: 30px;
    color: white;
    text-align: center;
+
  }
 
  .vacation-text{
    font-family: Georgia;
   font-size: 17px;
   color: black;
+
  }
 
 .early{
@@ -110,6 +111,7 @@
    font-family: Georgia;
    font-size: 17px;
    color: black;
+
  }
 
  .sidebyside{
