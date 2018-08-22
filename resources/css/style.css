@@ -196,15 +196,11 @@ background-color: MediumAquamarine;
   width:100%;
 }
 
-/* background-color: MediumAquamarine;
-  margin: auto;
-  font-family: Verdana;
-  font-size: 12px;
-}
-
 .times{
   display: inline-block;
   align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
@@ -214,12 +210,19 @@ background-color: MediumAquamarine;
 
 .links{
   display: inline-block;
-
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .links a{
-  display: inline-block;
-  color: black;
+  color:black;
   margin-right: 10px;
 }
-*/
+
+.copyrights{
+  display: inline-block;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
