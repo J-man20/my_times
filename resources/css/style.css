@@ -75,6 +75,13 @@
    color: white;
  }
 
+ .funny{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 20px;
+ }
+
 .vacation{
   display: flex;
   width: 300px;
@@ -89,6 +96,12 @@
    color: white;
    text-align: center;
 
+ }
+
+ .puget{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
  }
 
  .vacation-text{
@@ -112,6 +125,12 @@
    font-size: 30px;
    color: white;
    text-align: center;
+ }
+
+ .burger{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
  }
 
  .early-text{
@@ -155,6 +174,12 @@ color: black;
 
  }
 
+ .control{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+ }
+
  /*Small Section */
  #small{
   display: flex;
@@ -188,8 +213,8 @@ color: black;
 
 /*Footer */
 #footer{
-display: flex;
-align-items: flex-end;
+display: inline-flex;
+align-items: center;
 justify-content: center;
 flex-direction: column;
 background-color: MediumAquamarine;
@@ -198,6 +223,7 @@ background-color: MediumAquamarine;
   font-size: 12px;
   width:100%;
   height: 320px;
+
 }
 
 .times{
@@ -210,16 +236,18 @@ background-color: MediumAquamarine;
   font-weight: bold;
   color: white;
   border-right: 2px solid white;
+  padding-right: 20px;
 }
 
-.links{
+nav{
   display: inline-block;
   align-items: flex-end;
   justify-content: center;
   flex-direction: column;
+  margin-left: 40px;
 }
 
-.links a{
+ a{
   color:black;
   margin-right: 10px;
 }
@@ -229,4 +257,5 @@ background-color: MediumAquamarine;
   align-items: flex-end;
   justify-content: center;
   flex-direction: column;
+  margin-top: 20px;
 }
