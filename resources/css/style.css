@@ -188,6 +188,12 @@ color: black;
 display: flex;
 align-items: flex-end;
 justify-content: center;
+flex-direction: column;
+background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width:100%;
 }
 
 /* background-color: MediumAquamarine;
