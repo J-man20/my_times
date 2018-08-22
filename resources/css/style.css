@@ -9,6 +9,7 @@
   font-weight: bold;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
   z-index: 1;
   border-bottom:  1px solid black;
@@ -28,11 +29,13 @@
  .navigation{
    display:inline-block;
    justify-content: flex-end;
+   margin-right: 40px;
  }
 
  .navigation span{
    display:inline-flex;
    justify-content: flex-end;
+
  }
 
    .navigation a{
